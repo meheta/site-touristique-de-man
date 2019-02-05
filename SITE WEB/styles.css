@@ -1,0 +1,165 @@
+/*GENERAL*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{ background-color: aqua;
+  font-family: arial,sans-serif;
+    font-size: 15px;
+}
+
+h2
+{
+  font-family:arial;
+  margin-left: 15px;
+  margin-top: 30px; 
+    font-size: 60px;
+    color: darkred;
+}
+h3
+{
+    margin-top: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #444;
+    text-align: center;
+}
+ul
+{
+    text-align: center;
+   list-style: none;
+}
+a
+{
+   text-decoration:none;
+    color: #444;
+}
+wrapper
+{
+    width: 940px;
+    margin:0 auto;
+    padding:0 10px;
+    
+}
+
+
+/*HEADER*/
+header
+{
+     height: 120px;
+    
+}
+header nav
+{
+    margin-top: 40px;
+}
+
+header nav ul li
+{
+    
+    display:inline-block;
+}
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+/*MAIN IMAGE*/
+#main-image
+{
+
+    background:url("images/CASCADES%203.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:480px;
+}
+#main-image h2
+{
+    text-align:center;
+  font-weight: normal;
+    padding: 120px 0 40px 0;
+}
+#eat
+{
+  float: left;
+    
+}
+#eat img
+{
+    margin-top: 60px;
+    margin-left: 55px;
+    width: 400px;
+}
+#eat p
+{
+     font-size: 18px;
+    font-family: monospace;
+    text-align: center;
+}
+#relax
+{
+   float: left; 
+}
+#relax img
+{
+    margin-top: 60px;
+    margin-left: 70px;
+    width: 400px;
+}
+#relax p
+{
+     font-size: 18px;
+    font-family: monospace;
+    text-align:center;
+}
+#discovery
+{
+    float: right;
+}
+#discovery img
+{
+    margin-top: 60px;
+    width: 400px;
+}
+#discovery p
+{
+    font-size: 18px;
+    font-family: monospace;
+    text-align:center;
+}
+#contact 
+{
+    padding: 60px 0;
+    text-align: center;
+    margin: 20px 10px;
+    clear: both;
+}
+#contact h3
+{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#contact p
+{
+    font-family: monospace;
+    font-size: 18px;
+}
+/*FOOTER*/
+footer
+{
+    height: 260px;
+    background-color: #444;
+}
+footer h4
+{
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;
+    font-family: monospace;
+}
